@@ -8,6 +8,7 @@ function fib(n) {
     while(iter <= n)
         {
             array.push(array[iter - 2]+array[iter - 1]);
+            iter++;
         }
     return array;
 }

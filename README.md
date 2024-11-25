@@ -27,3 +27,5 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+The invariant of this would be when n == 0 it returns [0] and when n == 1 it returns [0,1].

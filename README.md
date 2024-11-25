@@ -28,6 +28,4 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-The invariant of this would be (n-1) + (n-2) = n because the previous 2 numbers are equal
-to the current number. The set has to start with 0 and the 2nd number will always be 1 so
-the start of calculating the set is when n = 3. 
+The invariant of this would be when n == 0 it returns [0] and when n == 1 it returns [0,1].

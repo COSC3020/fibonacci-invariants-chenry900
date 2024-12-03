@@ -28,7 +28,6 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-The invariant of this would be when n == 0 it returns [0] and when n == 1 it returns [0,1].
-This proves the algorithm is correct because it sets the first 2 numbers in the chain 
-and since (n-2) + (n-1) = n it sets the rest of the chain up to be correct.
-SO the invariant would be nsub 0 is 0.
+The invariant of this would be when n == 0 the array is 0 when n == 1 then the first 2 numbers in the array are 0 and 1.
+So the base case is 0, 1. So when n == 3, f(n) = f(n-2) + f(n-1) and when n == 4 f(n) = f(n-2) + f(n-1) thus the 
+recurrence relation is f(n) = f(n-2) + f(n-1).
